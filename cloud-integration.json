@@ -1,0 +1,18 @@
+{
+  "oci": {
+    "usageApi": [
+      {
+        "tenancyID": "<テナンシOICD>",
+        "region": "<ホームリージョン>",
+        "authorizer": {
+          "authorizerType": "OCIRawConfigProvider",
+          "tenancyID": "<テナンシOICD>",
+          "userID": "<ユーザOCID>",
+          "region": "<ホームリージョン>",
+          "fingerprint": "<APIキーのフィンガープリント>",
+          "privateKey": "<APIキーの秘密鍵>"
+        }
+      }
+    ]
+  }
+}

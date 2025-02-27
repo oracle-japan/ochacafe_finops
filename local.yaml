@@ -1,0 +1,12 @@
+opencost:
+  cloudIntegrationSecret: cloud-costs
+  cloudCost:
+    enabled: true
+    # -- Number of hours between each run of the Cloud Cost pipeline
+    refreshRateHours: 1
+    # -- Number of days into the past that a Cloud Cost standard run will query for
+    runWindowDays: 1
+    # -- The number of standard runs before a Month-to-Date run occurs
+    monthToDateInterval: 1
+    # -- The max number of days that any single query will be made to construct Cloud Costs
+    queryWindowDays: 1
